@@ -1,0 +1,57 @@
+.fontfamily{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(49, 202, 202);
+}
+
+.fontstyle{
+  font-family: monospace;
+  font-style: italic;
+}
+
+.fontsize{
+  font-size: 48px;
+}
+
+.fontweight{
+  font-weight: 700;
+}
+
+.textalign{
+  text-align:  center;
+}
+
+h3.textdecoration{
+text-decoration: line-through;
+}
+
+h2.textdecoration{
+  text-decoration: overline;
+}
+
+h1.textdecoration{
+  text-decoration: underline;
+}
+
+.textshadow{
+  text-shadow: 10px 4px 2px red;
+}
+
+.textindent{
+  text-indent: 30px;
+}
+
+.ltspacing{
+  letter-spacing: 5px;
+}
+
+.wdspacing{
+  word-spacing: 10px;
+}
+
+.whitespace{
+  white-space: nowrap;
+}
+
+.lineheight{
+  line-height: 30px;
+}
