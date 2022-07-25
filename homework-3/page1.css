@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* позволяет отменять или задавать увеличение шрифта на мобильных
+   экранах. */
+
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; color: black;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+
+/* вертикальное позиц. строчных, строчно-бл. и
+ячеек таблицы*/
+img{vertical-align: top;}
+
+
+
+/* ------------------------------------------ */
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+
+
+.div1{
+  display: block;
+  padding: 5px;
+  width: 550px;
+  height: 94px;
+  line-height: 23px;
+  text-indent: 50px;
+  margin: 25px 200px 20px 40px;
+}
+
+.span1{
+  display: block;
+  margin: 0 200px 0 60px;
+  padding: 0 55px;
+}
+
+.a1{
+  display: block;
+  margin: 0 200px 0 40px;
+  padding: 0 100px;
+}
+
+.div2{
+  margin: 0 200px 0 60px;
+  text-indent: 35px;
+  width: 1180px;
+  height: 94px;
+  padding: 30px 30px 40px 0 ;
+
+}
+
+.div3{
+  display: inline-block;
+  margin: 0 0 0 60px;
+  padding: 0 0 0 37px;
+}
+
+.p1{
+  display: inline-block;
+  margin: 0 100px 0 60px;
+}
+
+.span2{
+  display: block;
+  margin: 30px 100px 0 60px;
+  padding-left: 75px;
+
+}
+
+.a2{
+  display: block;
+  margin: -14.6px 0 0 30%;
+  padding-right: 75px;
+
+}
+
+.span3{
+  display: block;
+  margin: 40px 0 0 80px;
+  padding: 30px 100px 40px 0;
+}
