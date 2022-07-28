@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* позволяет отменять или задавать увеличение шрифта на мобильных
+   экранах. */
+
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+
+/* вертикальное позиц. строчных, строчно-бл. и
+ячеек таблицы*/
+img{vertical-align: top;}
+
+
+
+/* ------------------------------------------ */
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.list{
+  margin: 50px 0 0 30%;
+}
+
+.list li:hover{
+  background: url('/homework-5/check\ icon\ \(1\).png') left -5px no-repeat;
+  color: red;
+}
+
+
+
+.list li{
+  background: url('/homework-4/check\ icon.png') left -5px no-repeat;
+  padding: 0px 0px 0px 40px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #273d46;
+  line-height: 30px;
+}
+
+.list li:first-child{
+  text-decoration: line-through;
+}
+
+.list li:nth-child(2) {
+  font-weight: 700;
+}
+
+.list li:nth-child(3) {
+  font-style: italic;
+}
+
+.list li:last-child{
+  text-transform: uppercase;
+}
+
+.text-input {
+  display: block;
+  border: 1px solid #666;
+  height: 50px;
+  padding: 0px 15px;
+  width: 300px;
+  font-size: 18px;
+  margin: 70px 0 10px 30%;
+}
+
+.first-btn{
+  text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 3px;
+  border-radius: 20px;
+  background: #80b7b3 url('/homework-4/Shape\ 2.png') no-repeat 88% 20px;
+  padding: 20px;
+  margin: 70px 0 0 30%;
+  width: 190px;
+  height: 52px;
+  text-align: left;
+  box-shadow: -2px 5px 50px 0px #80b7b3;
+}
+
+.first-btn:hover{
+  background-color: #3a5855;
+  box-shadow: none;
+}
+
+.first-btn:active{
+  background-color: #818181;
+  box-shadow: none;
+}
+
+.text-input:focus{
+  box-shadow: 0px 0px 40px -10px #7fbdd5;
+  border: 1px solid #7fbdd5;
+}
