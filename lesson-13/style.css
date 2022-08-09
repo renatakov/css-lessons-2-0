@@ -134,7 +134,7 @@ li:nth-child(2):before{
   content: '';
   position: absolute;
   top: 2px;
-  left: 8.3%;
+  left: 28%;
   width: 10px;
   height: 10px;
   background-color: #5e5373;
@@ -172,14 +172,6 @@ li:nth-child(3):before{
   font-size: 30px;
 
 }
-.block__column_1{
-};
-.block__column_2{
-};
-
-.block__column_3{
-};
-
 
 
 

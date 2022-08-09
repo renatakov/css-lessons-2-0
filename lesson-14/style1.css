@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* ----------------------------- */
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+};
+
+.wrapper{
+  max-width: 1280px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.container{
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.content{
+  flex: 1 1 auto;
+}
+
+.hi{
+  background-color: #445162;
+}
+
+.hi__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hi__body{
+  padding-left: 35px;
+}
+
+.hi__title{
+  color: #fff;
+  padding: 40px 0 0 0;
+  font-size: 50px;
+}
+
+.hi__list{
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  padding: 20px 0 0 0;
+}
+
+.hi__list li:before{
+  content:  url('/lesson-14/img/icon.png');
+  padding-right: 10px;
+  
+
+}
+
+.hi__list li:last-child{
+  padding: 0 0 20px 0;
+}
+
+.footer{
+  background-color: #F5F5F5;
+  max-width: 100%;
+  height: 55px;
+  text-align: center;
+  color: #445162;
+  padding: 20px;
+}
