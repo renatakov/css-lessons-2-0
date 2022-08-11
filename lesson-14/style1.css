@@ -140,39 +140,34 @@ body{
 
 .what__row{
   display: flex;
-  flex: 1 1 auto;
-  margin: 0px -5px;
 
 }
 
-.what__text{
-  color: #333333;
-  font-size: 14px;
-  line-height: 26px;
-
-
-}
-
-.what__text p{
-  flex-wrap: wrap;
-  margin: 55px 0 20px;
-  flex: 0 1 50%;
-  
-
-}
-
-.what__text:last-child{
-  flex: 1 1 10%;
-}
-
-.what__title{
-  margin-top: 20px;
-  flex: 1 0 300px;
-
+.what__body{
+  padding-right: 300px;
 }
 
 .what__image{
-  padding: 35px;
+  margin: 30px;
+}
+
+.what__title{
+  margin-top: 30px;
+
+}
+.what__text{
+  color: #333333;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+.what__text p{
+  margin: 20px 0 5px 0;
+}
+
+.what__text:last-child{
+margin-bottom: 40px;
 }
 
 
