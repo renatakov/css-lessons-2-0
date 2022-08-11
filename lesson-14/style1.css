@@ -121,7 +121,7 @@ body{
 .hi__list li:before{
   content:  url('/lesson-14/img/icon.png');
   padding-right: 10px;
-  
+
 
 }
 
@@ -129,10 +129,61 @@ body{
   padding: 0 0 20px 0;
 }
 
+.hi__image{
+  margin-bottom: 20px;
+}
+
+.title{
+  font-size: 30px;
+  color: #445162;
+}
+
+.what__row{
+  display: flex;
+  flex: 1 1 auto;
+  margin: 0px -5px;
+
+}
+
+.what__text{
+  color: #333333;
+  font-size: 14px;
+  line-height: 26px;
+
+
+}
+
+.what__text p{
+  flex-wrap: wrap;
+  margin: 55px 0 20px;
+  flex: 0 1 50%;
+  
+
+}
+
+.what__text:last-child{
+  flex: 1 1 10%;
+}
+
+.what__title{
+  margin-top: 20px;
+  flex: 1 0 300px;
+
+}
+
+.what__image{
+  padding: 35px;
+}
+
+
 .footer{
   background-color: #F5F5F5;
   max-width: 100%;
   height: 55px;
+  flex: 1 1 auto;
+}
+
+.footer__content{
   text-align: center;
   color: #445162;
   padding: 20px;
